@@ -1,23 +1,155 @@
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angebotsauswahl</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+
+ <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cost Estimate</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Interactive Cost Estimate</h1>
-    
-    <form id="cost-form">
-        <label><input type="checkbox" class="service" value="500"> Logo Design (€500)</label><br>
-        <label><input type="checkbox" class="service" value="300"> Business Cards (€300)</label><br>
-        <label><input type="checkbox" class="service" value="700"> Website Design (€700)</label><br>
-        <label><input type="checkbox" class="service" value="400"> Social Media Graphics (€400)</label><br>
-    </form>
+    <section id="landing">
+        <div class="landing-content">
+            <h1 class="welcome-text">Welcome to My Creative Studio</h1>
+            <p class="tagline">Turning your ideas into digital reality</p>
+            <a href="#intro-section" class="scroll-down">
+                <span>Let's go</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </section>
 
-    <h2>Total: €<span id="total">0</span></h2>
+    <section id="intro-section">
+        <div class="section-content">
+            
+            <div id="who-am-i">
+                <img src="portrait_mr.png" alt="Portait Photo of Mike Razniewski">
 
-    <script src="script.js"></script>
+                <div>
+
+                    <h1>Wer bin ich?</h1>
+                    <p>Mike Razniewski, Diplom-Designer - seit zehn Jahren freiberuflich tätig.</br></br>
+                        Ich mag Projekte, die kulturelle Themen aufgreifen, nachhaltig sind und echten Mehrwert schaffen. Mir ist wichtig, dass Design nicht nur ästhetisch ansprechend ist, sondern auch durchdacht und funktional – egal ob in visuellen Identitäten, Motion Design, 3D/Film oder interaktiven Installationen. Ich arbeite gerne konzeptionell, finde passende Formate und denke auch mal um die Ecke, um überzeugende Kommunikationsstrategien zu entwickeln.</p>
+                        <p>Kunden & Kollaborationen (Auswahl):  
+                            <a href="https://www.filmakademie.de" target="_blank">Filmakademie Baden-Württemberg</a> & <a href="https://www.animationsinstitut.de" target="_blank">Animationsinstitut</a>
+                            <a href="https://www.uni-stuttgart.de" target="_blank">Universität Stuttgart</a>,  
+                            <a href="https://www.deutscher-apotheker-verlag.de/" target="_blank">DAV</a> über 
+                            <a href="https://www.wessingerundpeng.com/" target="_blank">Wessinger & Peng</a>   
+                            <a href="https://bn-fotodesign.com/" target="_blank">Zuckerfabrik</a>,  
+                            <a href="https://www.instagram.com/white_noise_stuttgart/" target="_blank">White Noise</a>,
+                            <a href="https://www.annabreit.de/" target="_blank">Anna Breit</a>,    
+                            <a href="https://oliverhae.com/" target="_blank">Oliver Haeusle</a>,  
+                            <a href="https://studio-ugly.com/" target="_blank">Studio Ugly</a>  
+                        </p>
+                        
+                </div>
+            </div>
+            
+            <div id="projects">
+                <div class="project" id="project1">
+                    <div class="project-content">
+                        <h3>Buchgestaltung</h3>
+                        <h4>20 Years 20 Projects<br>Animationsinstitut</h4>
+                        <p class="collaborators">Kollaboration mit:</p>
+                        <ul class="collaborator-list">
+                            <li><a href="https://animationsinstitut.de/de/lehrende/prof-andreas-hykade" target="_blank">Andreas Hykade</a></li>
+                            <li><a href="https://www.linkedin.com/in/tina-ohnmacht-b35388/?originalSubdomain=de" target="_blank">Tina Ohnmacht</a></li>
+                            <li>Fabian Hetzler</li>
+                            <li>...</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project" id="project2">
+                    <div class="project-content">
+                        <h3>Visual Identity <br>& Website</h3>
+                        <h4>Melton Prior Institute</h4>
+                        <p class="collaborators">Kollaboration mit:</p>
+                        <ul class="collaborator-list">
+                            <li><a href="https://www.abdelammeer.com/" target="_blank">Abdelhamid Ameur</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project" id="project3">
+                    <div class="project-content">
+                        <h3>Animationsfilm<br>Art Direction</h3>
+                        <h4>Eenie Meenie World</h4>
+                        <p class="collaborators">Kollaboration mit:</p>
+                        <ul class="collaborator-list">
+                            <li><a href="https://biancascali.com/" target="_blank">Bianca Scali</a></li>
+                            <li><a href="https://www.linkedin.com/in/paulina-larson-082b33124/" target="_blank">Paulina Larson</a></li>
+                            <li><a href="http://claradeitmar.com" target="_blank">Clara Deitmar</a></li>
+                            <li><a href="https://johannesluebke.com/" target="_blank">Johannes Luebcke</a></li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="cost-estimate">
+        <div class="section-content">
+        <h2>Ihr individuelles Angebot</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Option</th>
+                    <th>Preis (€)</th>
+                    <th>Auswählen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="category" onclick="toggleCategory(this)"><td colspan="3">Branding</td></tr>
+                <tr class="subcategory"><td>Grundpaket Branding</td><td class="price">1000</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="subcategory"><td>Erweiterte Markenstrategie</td><td class="price">1500</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="subcategory"><td>Corporate Design</td><td class="price">1200</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="category-total"><td>Summe Branding</td><td class="category-price" data-category="Branding">0</td><td></td></tr>
+                
+                <tr class="category" onclick="toggleCategory(this)"><td colspan="3">Web & Digital</td></tr>
+                <tr class="subcategory"><td>Website Design</td><td class="price">2000</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="subcategory"><td>Website Entwicklung</td><td class="price">3000</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="subcategory"><td>SEO & Online Marketing</td><td class="price">800</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="category-total"><td>Summe Web & Digital</td><td class="category-price" data-category="Web & Digital">0</td><td></td></tr>
+                
+                <tr class="category" onclick="toggleCategory(this)"><td colspan="3">Social Media</td></tr>
+                <tr class="subcategory"><td>Social Media Kampagne</td><td class="price">1000</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="subcategory"><td>Content Produktion</td><td class="price">900</td><td><input type="checkbox" class="option"></td></tr>
+                <tr class="category-total"><td>Summe Social Media</td><td class="category-price" data-category="Social Media">0</td><td></td></tr>
+            </tbody>
+        </table>
+        <p class="total">Gesamtsumme: <span id="totalPrice">0</span> €</p>
+        <textarea id="additional-info" placeholder="Add more information or questions..."></textarea>
+        <input type="email" id="email" placeholder="Your email address">
+        <button id="send">Send</button>
+        <h2>Timeline</h2>
+        <p>Project milestones...</p>
+        </div>
+    </section>
+
+
+    <button id="next">Let's Start</button>
 </body>
 </html>
